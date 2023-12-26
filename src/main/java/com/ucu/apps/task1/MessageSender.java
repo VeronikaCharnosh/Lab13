@@ -25,6 +25,7 @@ public class MessageSender {
 
     private void sendMessage(String text, User userr) {
         String mail = userr.getEmail();
-        System.out.println("Message" + text + "was sent to this email: " + mail);
+        System.out.println("Message" + text 
+        + "was sent to this email: " + mail);
     }
 }
